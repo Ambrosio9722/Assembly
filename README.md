@@ -4,11 +4,12 @@
 
 
 #include <stdio.h>
-
+```c
 int main() {
     printf("Hello, World!\n");
     return 0;
 }
+```
 ![Assembly]
 (https://upload.wikimedia.org/wikipedia/commons/3/30/Assembly_language_logo.svg)
-```c
+
