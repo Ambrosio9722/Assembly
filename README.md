@@ -5,10 +5,20 @@
 
 #include <stdio.h>
 ```c
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
+ORG 2000H
+    DB 'H', 'E', 'L', 'L', 'O', 0  ; String a ser enviada
+
+ORG 2100H
+    LXI H, 2000H      ; HL aponta para o início da string
+LOOP:
+    MOV A, M          ; Carrega o caractere atual em A
+    CPI 0             ; Compara com 0 (fim da string)
+    JZ END            ; Se for 0, fim do programa
+    OUT 01H           ; Envia A para a porta 01H (simulando uma saída de vídeo)
+    INX H             ; Vai para o próximo caractere
+    JMP LOOP
+END:
+    HLT               ; Fim
 ```
 ![Assembly]
 (https://upload.wikimedia.org/wikipedia/commons/3/30/Assembly_language_logo.svg)
