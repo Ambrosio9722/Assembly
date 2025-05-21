@@ -2,7 +2,7 @@
 
 # Repositório dedicado a projetos envolvendo a linguagem de programação Assembly
 
-```c
+
 #include <stdio.h>
 
 int main() {
@@ -11,3 +11,4 @@ int main() {
 }
 ![Assembly]
 (https://upload.wikimedia.org/wikipedia/commons/3/30/Assembly_language_logo.svg)
+```c
