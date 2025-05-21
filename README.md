@@ -21,5 +21,5 @@ END:
     HLT               ; Fim
 ```
 ![Assembly]
-(https://upload.wikimedia.org/wikipedia/commons/3/30/Assembly_language_logo.svg)
+([https://upload.wikimedia.org/wikipedia/commons/3/30/Assembly_language_logo.svg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F450289662744269419%2F&psig=AOvVaw1yjNSieu1dvdInJEneP0ip&ust=1747882566244000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOid7IzIs40DFQAAAAAdAAAAABAE))
 
